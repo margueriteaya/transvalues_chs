@@ -1,7 +1,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>transvalues Results</title>
+<title>跨儿价值测试结果</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -12,34 +12,35 @@
 </script>
 
 <body>
-<h1>transvalues</h1>
-<h2 id="twitplug">by <a id="twitplug" href="https://twitter.com/coolestrogen">@coolestrogen</a></h2>
+<h1>跨儿价值</h1>
+<h2 id="twitplug">Original repo by <a id="twitplug" href="https://twitter.com/coolestrogen">@coolestrogen</a></h2>
+<h2 id="twitplug">本中文化翻译版本来自 <a id="twitplug" href="https://twitter.com/Angel_involked">@Angel_involked</a>，由Lena Shizuki校对。</h2>
 <hr>
 
-<h1>Results</h1>
+<h1>结果</h1>
 
-<h2>Socials Axis: <span class="weight-300" id="socials-label"></span></h2>
+<h2>社交网络轴： <span class="weight-300" id="socials-label"></span></h2>
 <div class="axis">
     <img id="img-equality" src="value_images/twitter.png" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
     <img id="img-wealth" src="value_images/4chan.png" height="128pt"/>
 </div>
-<h2>Truscum Axis: <span class="weight-300" id="truscum-label"></span></h2>
+<h2>鉴跨程度轴： <span class="weight-300" id="truscum-label"></span></h2>
 <div class="axis">
     <img id="img-might" src="value_images/truscum.png" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
     <img id="img-peace" src="value_images/selfid.png" height="128pt"/>
 </div>
-<h2>HRT Access Axis: <span class="weight-300" id="state-label"></span></h2>
+<h2>药物获取轴： <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
     <img id="img-liberty" src="value_images/diy.png" height="128pt"/>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
     <img id="img-authority" src="value_images/legit.png" height="128pt"/>
 </div>
-<h2>Trans Liberation Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2>社会实践轴： <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/assimilation.png" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
@@ -48,7 +49,7 @@
 </div>
 
 <br><br><br>
-<button class="button" onclick="location.href='index.html';">Back</button> <br>
+<button class="button" onclick="location.href='index.html';">回家</button> <br>
 <script>
     function getQueryVariable(variable)
     {
@@ -71,10 +72,10 @@
         }
     }
 
-    socialsArray = ["r/traaaaaaaaa User","Private Quote Tweeter","Edgy","4chan Lurker","/tttt/ Poster"]
-    trusArray = ["Blaire White","Crippling Dysphoric","Annoyed Progressive","Xenogender Enjoyer","MOGAI"]
-    hrtArray = ["Lena Juicer","Spiro And Estro From Vanuatu","Informed Consent Fan","Concerned","Medical Gatekeeper"]
-    libArray = ["Assimilationist","Reformist","Pride Marcher","Stonewall Fan","Transbian Mailbomber"]
+    socialsArray = ["穗宝和水川和你","锁推再转","网路文化最前线","乐子人","胡桃夹子"]
+    trusArray = ["清蒸管理","日子人","进步主义","跨权维新","变态人妖二椅子"]
+    hrtArray = ["绪山药业","秋家遗老","方舟健客避难中","处方先行","HRT守门员"]
+    libArray = ["三好跨子","修正药业","骄傲六月","石墙精神继承人","残忍变性女巫"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
