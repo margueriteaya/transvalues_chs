@@ -189,7 +189,7 @@ questions = [
       }
   },
   {
-      "question": "作为一个非二元，我的性别焦虑真实存在。",
+      "question": "非二元性别的性别不安真实存在。",
       "effect": {
           "socials": 0,
           "trus": -3,
